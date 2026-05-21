@@ -25,11 +25,11 @@ namespace ConsoleApp4
     }
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            newclass obj = new newclass(10, 20);
-            obj.add();
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    newclass obj = new newclass(10, 20);
+        //    obj.add();
+        //    Console.ReadLine();
+        //}
     }
 }
