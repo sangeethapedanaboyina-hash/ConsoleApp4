@@ -25,25 +25,25 @@ namespace ConsoleApp4
 
     internal class userinput
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("enter number of elements");
-            int n = int.Parse(Console.ReadLine());
-            enduser [] students = new enduser[n];
-                for(int i=0;i<n;i++)
-            {
-                Console.WriteLine("enter student id:");
-                int id = int.Parse(Console.ReadLine());
-                Console.WriteLine("enter student name:");
-                string name = Console.ReadLine();
-                students[i] = new enduser(id,name);
-            }
-             Console.WriteLine("student details are: ");
-            for (int i = 0; i < students.Length; i++)
-            {
-                students[i].display();
-            }
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("enter number of elements");
+        //    int n = int.Parse(Console.ReadLine());
+        //    enduser [] students = new enduser[n];
+        //        for(int i=0;i<n;i++)
+        //    {
+        //        Console.WriteLine("enter student id:");
+        //        int id = int.Parse(Console.ReadLine());
+        //        Console.WriteLine("enter student name:");
+        //        string name = Console.ReadLine();
+        //        students[i] = new enduser(id,name);
+        //    }
+        //     Console.WriteLine("student details are: ");
+        //    for (int i = 0; i < students.Length; i++)
+        //    {
+        //        students[i].display();
+        //    }
+        //}
 
 
     }
