@@ -24,11 +24,11 @@ namespace ConsoleApp4
     }
     internal class thiskey
     {
-        static void Main(string[]args)
-        {
-            thisstudent obj = new thisstudent(1, "sangeetha");
-            obj.display();
-
-        }
+        //static void Main(string[]args)
+        //{
+        //    thisstudent obj = new thisstudent(1, "sangeetha");
+        //    obj.display();
+    
+        
     }
 }
